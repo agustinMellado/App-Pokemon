@@ -9,6 +9,7 @@ import { PokedexComponent } from './components/Home/pokedex/pokedex.component';
 import { PagesComponent } from './components/pages/pages.component';
 import { CounterPickComponent } from './components/pages/counter-pick/counter-pick.component';
 import { CuriosidadesComponent } from './components/pages/curiosidades/curiosidades.component';
+import { CardsComponent } from './components/cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CuriosidadesComponent } from './components/pages/curiosidades/curiosida
     PokedexComponent,
     PagesComponent,
     CounterPickComponent,
-    CuriosidadesComponent
+    CuriosidadesComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,
