@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { PokedexComponent } from './components/pages/pokedex/pokedex.component';
-
 import { CounterPickComponent } from './components/pages/counter-pick/counter-pick.component';
 import { CuriosidadesComponent } from './components/pages/curiosidades/curiosidades.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SharedModule } from './shared/shared.module';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    SharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

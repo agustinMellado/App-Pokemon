@@ -1,0 +1,8 @@
+.contenedor-nav {
+  justify-content: space-between;
+  display: flex;
+}
+.imagen {
+  width: 90px;
+  height: 45px;
+}
