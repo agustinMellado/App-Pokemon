@@ -1,4 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body{
+    /*le doy una opacidad a la imagen de fondo */
+    background: linear-gradient(rgba(55, 31, 31, 0.2),rgba(55, 31, 31, 0.6)),url('./assets/fondo.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    /*para que ocupe todo el fondo */
+    background-size:cover;
+    /*para que ocupe toda la pantalla viewport height (altura del dispositivo)*/
+    height:100vh;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
