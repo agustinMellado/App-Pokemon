@@ -4,5 +4,8 @@
 }
 .imagen {
   width: 90px;
-  height: 45px;
+  height: 35px;
+}
+.nav {
+    margin-bottom: 10px;
 }
