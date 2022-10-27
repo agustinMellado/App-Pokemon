@@ -9,6 +9,7 @@ import { PokedexComponent } from './components/Home/pokedex/pokedex.component';
 import { PagesComponent } from './components/pages/pages.component';
 import { CounterPickComponent } from './components/pages/counter-pick/counter-pick.component';
 import { CuriosidadesComponent } from './components/pages/curiosidades/curiosidades.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CuriosidadesComponent } from './components/pages/curiosidades/curiosida
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
