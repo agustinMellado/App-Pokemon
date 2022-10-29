@@ -1,1 +1,13 @@
 <p>cards works!</p>
+<div class="row">
+  <div class="col-md-4 -sm-6-col-lg-3" *ngFor="let pokemon of pokemons" >
+      <div class="pokemons"  style="width: 24rem;">
+          <img [src]="pokemon.url" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> {{pokemon.nombre}} </h5>
+            <p class="card-text"> {{pokemon.descripcion}} </p>
+            <a href="#" class="btn btn-primary">Detalles</a>
+          </div>
+        </div>
+  </div>
+</div>
