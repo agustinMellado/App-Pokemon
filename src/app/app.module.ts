@@ -10,6 +10,7 @@ import { CounterPickComponent } from './components/pages/counter-pick/counter-pi
 import { CuriosidadesComponent } from './components/pages/curiosidades/curiosidades.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './shared/shared.module';
+import { CardComponent } from './components/card/card.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { SharedModule } from './shared/shared.module';
     NavBarComponent,
     PokedexComponent,
     CounterPickComponent,
-    CuriosidadesComponent
+    CuriosidadesComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
