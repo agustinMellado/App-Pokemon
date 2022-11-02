@@ -1,14 +1,23 @@
 
-<div class="row">
-  <div class="col-md-4 -sm-6-col-lg-3" *ngFor="let pokemon of pokemons" >
-      <div class="pokemons"  style="width: 24rem;">
-          <img [src]="pokemon.url" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title"> {{pokemon.nombre}} </h5>
-            <p class="card-text"> {{pokemon.descripcion}} </p>
-            <a href="#" class="btn btn-primary">Detalles</a>
-          </div>
-        </div>
+<div class="conteiner">
+  <div class="row">
+    <div class="col-md-4 -sm-6-col-lg-3" *ngFor="let pokemon of pokemons" >
+      <mat-card class="pokemon"style="width: 24rem;" >
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>{{pokemon.nombre}}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image [src]="pokemon.url" class="card-img-top" alt="">
+        <mat-card-content>
+          <p>
+            {{pokemon.descripcion}}
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>Detalles</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
   </div>
-</div>
 
+</div>
