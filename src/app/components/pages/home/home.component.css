@@ -10,6 +10,9 @@
     align-items: center;
     
 }
+img{
+    width:20%
+}
 p{
     width:70%;
 }

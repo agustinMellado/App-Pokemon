@@ -11,6 +11,8 @@ import { CuriosidadesComponent } from './components/pages/curiosidades/curiosida
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './shared/shared.module';
 import { CardComponent } from './components/card/card.component';
+import { CarrouselComponent } from './components/carrousel/carrousel.component';
+
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { CardComponent } from './components/card/card.component';
     PokedexComponent,
     CounterPickComponent,
     CuriosidadesComponent,
-    CardComponent
+    CardComponent,
+    CarrouselComponent,
+
   ],
   imports: [
     BrowserModule,
