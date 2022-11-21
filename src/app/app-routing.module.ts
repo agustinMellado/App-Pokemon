@@ -11,7 +11,7 @@ const routes: Routes = [
     {path: 'home',component:HomeComponent},
     {path: 'pokedex', component:PokedexComponent},
     {path: 'counterPick', component:CounterPickComponent},
-    {path: 'curiosidades/:id', component:CuriosidadesComponent},
+    {path: 'curiosidades', component:CuriosidadesComponent},
   
 
   

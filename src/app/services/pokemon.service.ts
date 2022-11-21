@@ -15,5 +15,8 @@ export class PokemonService {
   getPokemons(index: any){
     return this.http.get<any>(`${this.baseUrl}/pokemon/${index}`);
   }
+  getAreaPokemon(){
+    return this.http.get<any>(`${this.baseUrl}/location-area`);
+  }
   
 }
