@@ -1,0 +1,73 @@
+
+
+.fondo{
+    height:80vh;
+    /*le doy una opacidad a la imagen de fondo */
+    background: linear-gradient(rgba(55, 31, 31, 0.2),rgba(55, 31, 31, 0.6)),url('../../../../assets/pokemonGif/inicio.gif');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-repeat: no-repeat;
+    background-position:center;
+    /*para que ocupe todo el fondo */
+    background-size:cover;
+}   
+.fondo1{
+    
+    height:80vh;
+    /*le doy una opacidad a la imagen de fondo */
+    background: linear-gradient(rgba(55, 31, 31, 0.2),rgba(55, 31, 31, 0.6)),url('../../../../assets/pokemonGif/pokedex.gif');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-repeat: no-repeat;
+    background-position:center;
+    /*para que ocupe todo el fondo */
+    background-size:cover;
+}   
+
+.fondo2{
+    
+    height:80vh;
+    /*le doy una opacidad a la imagen de fondo */
+    background: linear-gradient(rgba(55, 31, 31, 0.2),rgba(55, 31, 31, 0.6)),url('../../../../assets/pokemonGif/counterpick.gif');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-repeat: no-repeat;
+    background-position:center;
+    /*para que ocupe todo el fondo */
+    background-size:cover;
+}  
+.fondo3{
+    
+    height:80vh;
+    /*le doy una opacidad a la imagen de fondo */
+    background: linear-gradient(rgba(55, 31, 31, 0.2),rgba(55, 31, 31, 0.6)),url('../../../../assets/pokemonGif/curiosidadess.gif');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-repeat: no-repeat;
+    background-position:center;
+    /*para que ocupe todo el fondo */
+    background-size:cover;
+}  
+
+
+img{
+    filter: brightness(80%)
+}
+
+
+footer{
+    margin-bottom: 2px;
+    align-items: center;
+}

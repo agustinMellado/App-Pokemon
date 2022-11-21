@@ -13,6 +13,8 @@ import { SharedModule } from './shared/shared.module';
 import { CardComponent } from './components/card/card.component';
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,13 +22,16 @@ import { CardComponent } from './components/card/card.component';
     PokedexComponent,
     CounterPickComponent,
     CuriosidadesComponent,
-    CardComponent
+    CardComponent,
+
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     SharedModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
