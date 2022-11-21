@@ -7,11 +7,11 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { PokedexComponent } from './components/pages/pokedex/pokedex.component';
 
 const routes: Routes = [
-  
+    {path: '',pathMatch:'full', redirectTo: 'home'},
     {path: 'home',component:HomeComponent},
     {path: 'pokedex', component:PokedexComponent},
     {path: 'counterPick', component:CounterPickComponent},
-    {path: 'curiosidades', component:CuriosidadesComponent},
+    {path: 'curiosidades/:id', component:CuriosidadesComponent},
   
 
   
