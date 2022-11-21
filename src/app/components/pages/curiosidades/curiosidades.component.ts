@@ -8,26 +8,5 @@ import { PokemonService } from 'src/app/services/pokemon.service';
 })
 export class CuriosidadesComponent implements OnInit {
   constructor(private pokemonService: PokemonService) {}
-  ngOnInit(): void {
-   // this.getPokemons();
-   this.getAreaPokemon();
-  }/*
-  getPokemons() {
-    for (let i = 1; i <= 150; i++) {
-      this.pokemonService.getPokemons(i).subscribe(
-        (res) => {
-          console.log(res);
-        },
-        (err) => {}
-      );
-    }
-  }*/
-  getAreaPokemon(){
-    this.pokemonService.getAreaPokemon().subscribe(
-      (res) => {
-        console.log(res);
-      },
-      (err) => {}
-    );
-  }
+  ngOnInit(): void {}
 }
