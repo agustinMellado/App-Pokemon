@@ -1,7 +1,9 @@
 @import "../../../assets/styles/variables.scss";
 
 
-
+.container{
+  height:60vh;
+}
 .card {
   width: 300px;
   margin: auto;
