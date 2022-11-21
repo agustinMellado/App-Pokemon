@@ -1,5 +1,7 @@
 @import "../../../assets/styles/variables.scss";
 
+
+
 .card {
   width: 300px;
   margin: auto;
@@ -9,6 +11,7 @@
 
 .header-image {
   background-size: cover;
+
 }
 
 .mat-card-header{

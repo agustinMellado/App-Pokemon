@@ -18,7 +18,7 @@ table {
   font-size: 15px;
 }
 .mat-row:nth-child(even) {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(109, 197, 226);
 }
 
 .mat-row:nth-child(odd) {
