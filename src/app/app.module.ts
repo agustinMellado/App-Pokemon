@@ -14,6 +14,7 @@ import { CardComponent } from './components/card/card.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,12 +24,14 @@ import { CardComponent } from './components/card/card.component';
     CuriosidadesComponent,
     CardComponent,
 
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     SharedModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
