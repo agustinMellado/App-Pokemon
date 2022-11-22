@@ -8,7 +8,13 @@
   width: 300px;
   margin: auto;
   margin-top: 20px;
-  background-color: red;
+  
+
+
+  border-radius: 30px;
+  background: #f99292;
+  box-shadow: 15px 15px 30px #7f5d5d,
+              -15px -15px 30px #ffbebe;
 }
 
 .header-image {
