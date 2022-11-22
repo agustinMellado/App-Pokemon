@@ -22,7 +22,7 @@ table {
 }
 
 .mat-row:nth-child(odd) {
-  background-color: red;
+  background-color: rgb(246, 158, 158);
 
 }
 mat-cell {
