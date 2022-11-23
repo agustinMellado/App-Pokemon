@@ -1,18 +1,22 @@
 @import "../../../../assets/styles/variables.scss";
 
-.container{
+.contenedor{
     width: 100%;
     margin-top: 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+
 }
 table {
   min-width: 80%;
   margin: auto;
   text-align: center;
 }
-
+.filtro{
+  margin-left: 19vh;
+}
 .mat-header-cell {
-  color: black;
+  color: rgb(245, 245, 245);
   font-weight: bold;
   text-align: center;
   font-size: 15px;
